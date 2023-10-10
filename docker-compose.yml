@@ -1,0 +1,16 @@
+version: '3.4'
+
+services:
+  heladus:
+    image: ${DOCKER_REGISTRY-}heladus
+    build:
+      context: .
+      dockerfile: Heladus/Dockerfile
+    ports:
+      - "54110:80"  # Mapea el puerto 54110 del host al puerto 80 del contenedor
+
+  db:
+    image: "mcr.microsoft.com/mssql/server:2017-latest"
+    environment:
+      - ACCEPT_EULA=Y
+      - SA_PASSWORD=CBloqueoSQLMS#8db

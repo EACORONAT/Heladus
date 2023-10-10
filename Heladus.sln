@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34024.191
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Heladus", "Heladus\Heladus.csproj", "{5594A4D0-0783-4216-AAE7-58AA3764B608}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{11357F33-FC09-45B2-A01D-EBBFE19E46BC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5594A4D0-0783-4216-AAE7-58AA3764B608}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5594A4D0-0783-4216-AAE7-58AA3764B608}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5594A4D0-0783-4216-AAE7-58AA3764B608}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5594A4D0-0783-4216-AAE7-58AA3764B608}.Release|Any CPU.Build.0 = Release|Any CPU
+		{11357F33-FC09-45B2-A01D-EBBFE19E46BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11357F33-FC09-45B2-A01D-EBBFE19E46BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11357F33-FC09-45B2-A01D-EBBFE19E46BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11357F33-FC09-45B2-A01D-EBBFE19E46BC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6CC7601B-06B4-4350-ABF2-20CBE5C506CD}
+	EndGlobalSection
+EndGlobal
